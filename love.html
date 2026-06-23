@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="love.css" />
+    <script src="love.js"></script>
+    <title>Valentine</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="img-div">
+        <img src="capoo.jpg" />
+      </div>
+      <div class="text-div">
+        <h1>Will you be my Valentine?</h1>
+        <div class="button-div">
+          <div class="yes-div">
+            <button id="yes">Yes</button>
+          </div>
+          <div class="no-div">
+            <button id="no">No</button>
+          </div>
+        </div>
+        <form class="schedule-div" id="scheduleForm">
+          <h2>Pick our date time</h2>
+          <div class="schedule-inputs">
+            <label for="date">Date</label>
+            <input type="date" id="date" required />
+            <label for="time">Time</label>
+            <input type="time" id="time" required />
+          </div>
+          <button type="submit" id="sendSchedule">Send Schedule</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
